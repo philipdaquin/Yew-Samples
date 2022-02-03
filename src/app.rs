@@ -1,4 +1,4 @@
-use crate::routes::{about::About, home::Home, AppRoute};
+use crate::routes::{counter::Counter, home::Home, AppRoute};
 use crate::components::{ navbar::Navbar, footer::Footer, };
 
 
@@ -32,7 +32,7 @@ impl Component for Main {
                         render = Router::render(|switch: AppRoute| {
                             match switch {
                                 AppRoute::Home => html!{ <Home/> },
-                                AppRoute::About => html!{ <About/> },
+                                AppRoute::Counter => html!{ <Counter/> },
                             }
                         })
                     />

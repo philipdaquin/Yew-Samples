@@ -43,7 +43,7 @@ impl Component for Navbar {
                         <RouterAnchor<AppRoute> route=AppRoute::Home><a>{"Home"}</a></RouterAnchor<AppRoute>>
                     </li>
                     <li>
-                        <RouterAnchor<AppRoute> route=AppRoute::About><a>{"Blog"}</a></RouterAnchor<AppRoute>>
+                        <RouterAnchor<AppRoute> route=AppRoute::Counter><a>{"Counter"}</a></RouterAnchor<AppRoute>>
                     </li>
                 </ul>
             </header>
